@@ -1,4 +1,3 @@
-
 import 'package:app_cicleapp/src/componets/color_style.dart';
 import 'package:flutter/material.dart';
 
@@ -19,8 +18,8 @@ class _HowAccessState extends State<HowAccess> {
         children: [
           Padding(
             padding: const EdgeInsets.all(24),
-            child: Image.network(
-              'https://www.doglife.com.br/site/assets/images/gato-e-cao.png',
+            child: Image.asset(
+              'lib/assets/Logotipo.png',
               width: MediaQuery.of(context).size.width,
               height: 339,
             ),

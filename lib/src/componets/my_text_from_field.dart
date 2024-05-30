@@ -1,4 +1,3 @@
-
 import 'package:app_cicleapp/src/componets/color_style.dart';
 import 'package:flutter/material.dart';
 
